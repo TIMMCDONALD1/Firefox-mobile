@@ -35,7 +35,7 @@ Before you open up a codespace on a repository, you can create a development con
 1. In the body of the new **.devcontainer/devcontainer.json** file, add the following content:
    ```
    {
-       // Name this configuration
+       // Name this configuration-1-Andrapple1
        "name": "Codespace for Skills!",
        "customizations": {
            "vscode": {
