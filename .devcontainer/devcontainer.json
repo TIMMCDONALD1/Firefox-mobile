@@ -1,7 +1,9 @@
 {
   "name": "Firefox-mobile codespace",
-  // Use the official Node.js devcontainer image (includes Node, npm and common tools)
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+  // Build from a Dockerfile based on the official Node.js devcontainer image.
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "customizations": {
     "vscode": {
       "extensions": [
