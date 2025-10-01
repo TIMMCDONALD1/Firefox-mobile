@@ -1,0 +1,21 @@
+Andrapple1 course steps
+
+This file documents the numbered steps for the Andrapple1 "Code with Copilot" course and the corresponding step files.
+
+Format: <step-number> - <file> - <short description>
+
+0 - 0-welcome.md - Welcome and onboarding instructions for contributors
+1 - 1-copilot-extension.md - Install and configure GitHub Copilot (VS Code / Codespaces)
+2 - 2-skills-javascript.md - Try Copilot suggestions inside a JavaScript file
+3 - 3-copilot-hub.md - Use the Copilot completions panel (hub) to accept multiple suggestions
+4 - 4-copilot-comment.md - Use Copilot with comments and PR-ready suggestions
+X - X-finish.md - Finish the course and next steps
+
+Maintainers:
+- To advance the course step, update the file `.github/steps/-step.txt` with the new step number (for example, change to `3` to mark step 3 active).
+- Workflows may read `.github/steps/-step.txt` to conditionally run step-specific automation.
+- Keep this document in sync with step files in `.github/steps/`.
+
+If you want, I can also:
+- Update `.github/steps/-step.txt` to a specific step for Andrapple1 (specify the number).
+- Add a small script or workflow to rotate steps automatically when a step's workflow completes.

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+run debug
+status=$?
+if [ $status -ne 0 ]; then
+    echo "debug step failed (exit $status)" >&2
+    exit $status
+fi
+
+echo "debug step succeeded"

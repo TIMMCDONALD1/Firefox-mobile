@@ -1,5 +1,7 @@
 {
   "name": "Firefox-mobile codespace",
+  // Use the official Node.js devcontainer image (includes Node, npm and common tools)
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -7,5 +9,8 @@
         "GitHub.copilot-chat"
       ]
     }
-  }
+  },
+  // Run a small post-create script to install dependencies if a package.json exists
+  "postCreateCommand": "bash ./.devcontainer/post-create.sh || true",
+  "remoteUser": "vscode"
 }
