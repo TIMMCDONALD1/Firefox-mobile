@@ -1,4 +1,4 @@
- 
+Anrapple1 
 <!--
   <<< Author notes: Course header >>>
   Read <https://skills.github.com/quickstart> for more information about how to build courses using this template.
@@ -51,15 +51,15 @@ Before you open up a codespace on a repository, you can create a development con
 1. In the body of the new **.devcontainer/devcontainer.json** file, add the following content:
    ```
    {
-       // Name this configuration
-       "name": "Codespace for Skills!",
-       "customizations": {
-           "vscode": {
-               "extensions": [
-                   "GitHub.copilot"
-               ]
-           }
-       }
+      // Name this configuration
+      "name": "Codespace for Skills!",
+      "customizations": {
+         "vscode": {
+            "extensions": [
+               "GitHub.copilot"
+            ]
+         }
+      }
    }
    ```
 1. Select the option to **Commit directly to the `main` branch**, and then click the **Commit new file** button.
@@ -72,7 +72,7 @@ Before you open up a codespace on a repository, you can create a development con
 
 1. Verify your codespace is running. The browser should contain a VS Code web-based editor and a terminal should be present such as the below:
    ![Screen Shot 2023-03-09 at 9 09 07 AM](https://user-images.githubusercontent.com/26442605/224102962-d0222578-3f10-4566-856d-8d59f28fcf2e.png)
-1. The `copilot` extension should show up in the VS Code extension list. Click the extensions sidebar tab. You should see the following:
+1. The Copilot extension should show up in the VS Code extension list. Click the extensions sidebar tab. You should see the following:
    ![Screen Shot 2023-03-09 at 9 04 13 AM](https://user-images.githubusercontent.com/26442605/224102514-7d6d2f51-f435-401d-a529-7bae3ae3e511.png)
 
 **Wait about 60 seconds then refresh your repository landing page for the next step.**

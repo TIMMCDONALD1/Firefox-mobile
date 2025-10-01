@@ -1,4 +1,7 @@
-w<!--
+# create a PR from j -> main
+gh auth login   # run this first if not authenticated
+gh pr create --base main --head j --title "Step 3: Copilot hub suggestion" --body "Add member.js and advance to step 3" --web
+# the --web flag opens the PR in your browser to review before finalizing; remove --web to create directlyw<!--
   <<< Author notes: Finish >>>
   Review what we learned, ask for feedback, provide next steps.
 -->
