@@ -1,0 +1,11 @@
+{
+  "name": "Firefox-mobile codespace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
+      ]
+    }
+  }
+}
