@@ -9,6 +9,8 @@
     "test": "mocha --recursive",
     "dar--1": "scripts\\dar--1.bat",
     "dar1": "scripts\\dar1.bat",
+    "discord:notify": "node scripts/discord-notify.js",
+    "discord:ps": "powershell -ExecutionPolicy Bypass -File scripts\\discord-notify.ps1",
     "firebase:login": "npx firebase login",
     "firebase:init": "npx firebase init",
     "firebase:deploy": "npx firebase deploy --only hosting",
