@@ -1,0 +1,31 @@
+{
+  "name": "firefox-mobile-sample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "node run_skills.js",
+    "start": "node run_skills.js",
+    "serve": "node server.js",
+    "test": "mocha --recursive",
+    "dar--1": "scripts\\dar--1.bat",
+    "dar1": "scripts\\dar1.bat",
+    "discord:notify": "node scripts/discord-notify.js",
+    "discord:ps": "powershell -ExecutionPolicy Bypass -File scripts\\discord-notify.ps1",
+    "firebase:login": "npx firebase login",
+    "firebase:init": "npx firebase init",
+    "firebase:deploy": "npx firebase deploy --only hosting",
+    "firebase:emulate": "npx firebase emulators:start",
+    "pm2:start": "pm2 start server.js --name firefox-mobile",
+    "pm2:stop": "pm2 stop firefox-mobile || true",
+    "pm2:restart": "pm2 restart firefox-mobile || pm2 start server.js --name firefox-mobile",
+    "pm2:delete": "pm2 delete firefox-mobile || true"
+  },
+  "dependencies": {
+    "firebase": "^9.22.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "pm2": "^5.3.0",
+    "firebase-tools": "^11.29.0"
+  }
+}

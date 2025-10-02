@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "your-project-idgit clone https://github.com/stytchauth/stytch-b2b-node-quickstart.git && cd stytch-b2b-node-quickstart"
+  }
+}
