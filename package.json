@@ -7,6 +7,8 @@
     "start": "node run_skills.js",
     "serve": "node server.js",
     "test": "mocha --recursive",
+    "dar--1": "scripts\\dar--1.bat",
+    "dar1": "scripts\\dar1.bat",
     "pm2:start": "pm2 start server.js --name firefox-mobile",
     "pm2:stop": "pm2 stop firefox-mobile || true",
     "pm2:restart": "pm2 restart firefox-mobile || pm2 start server.js --name firefox-mobile",
