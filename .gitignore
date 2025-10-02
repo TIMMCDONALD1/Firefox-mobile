@@ -1,4 +1,5 @@
 # Compiled source #
+*.batch
 ###################
 *.com
 *.class
@@ -35,3 +36,4 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+node_modules
